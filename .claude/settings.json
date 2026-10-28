@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(**)",
+      "Edit(modules/**)",
+      "Edit(data/Fragenabgabe_v1_formatiert/**)",
+      "Edit(data/Fragenabgabe_v2_audit/**)",
+      "Bash(python:*)",
+      "Bash(py:*)",
+      "Bash(pip install:*)",
+      "Bash(powershell:*)",
+      "Bash(Start-Sleep:*)",
+      "Bash(mkdir:*)",
+      "Bash(copy:*)",
+      "Bash(dir:*)"
+    ],
+    "deny": [
+      "Edit(data/Fragenabgabe/**)"
+    ]
+  }
+}
